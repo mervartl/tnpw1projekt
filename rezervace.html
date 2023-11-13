@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>FCL Bar</title>
+</head>
+
+<body>
+    <header>
+        <h1>FCL Bar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="akce.html">Akce</a></li>
+                <li><a href="rezervace.html">Rezervace</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Vítejte v Rezervačním Centru FCL Bar</h1>
+
+        <p>Chcete si zajistit jedinečný a nezapomenutelný zážitek ve FCL Baru? Nezůstávejte pouze u představy! Využijte
+            našeho jednoduchého rezervačního formuláře a zajistěte si své místo pro nezapomenutelný večer plný skvělé
+            hudby, lahodných nápojů a příjemné atmosféry.</p>
+
+        <h2>Jak rezervovat:</h2>
+        <ol>
+            <li>
+                <strong>Vyplňte formulář:</strong> Zadejte své jméno, platný e-mail, telefonní číslo a další požadované
+                informace do našeho rezervačního formuláře.
+            </li>
+            <li>
+                <strong>Vyberte datum a čas:</strong> Určte datum a čas, kdy byste chtěli navštívit náš bar. Dejte nám
+                vědět, kolik osob plánujete a zda máte nějaké speciální požadavky.
+            </li>
+            <li>
+                <strong>Odeslat formulář:</strong> Po odeslání formuláře obdržíte potvrzení rezervace na váš e-mail. Tím
+                jste si zarezervovali své místo a můžete se těšit na skvělý večer v FCL Baru.
+            </li>
+            <li>
+                <strong>Potvrzení rezervace:</strong> Na den vaší rezervace se ujistěte, že máte potvrzení rezervace s
+                sebou. Naši zaměstnanci se postarají o to, abyste vše proběhlo hlace a vy tak měli nezapomenutelný zážitek.
+            </li>
+        </ol>
+
+        <p>Těšíme se na vaši návštěvu a doufáme, že vám poskytneme nezapomenutelný pobyt ve FCL Baru!</p><br/>
+
+        <form>
+            <label for="jmeno">Jméno a příjmení:</label><br />
+            <input type="text" id="jmeno" required><br />
+
+            <label for="email">E-mail:</label><br />
+            <input type="email" id="email" required><br />
+
+            <label for="telCislo">Telefonní číslo:</label><br />
+            <input type="text" id="telCislo" required><br />
+
+            <label for="datum">Datum:</label><br />
+            <input type="date" id="datum" required><br />
+
+            <label for="pozadavky">Další požadavky:</label><br />
+            <textarea type="text" id="pozadavky" rows="3"></textarea><br />
+
+            <input type="button" value="Odeslat">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 FCL Bar. Všechna práva vyhrazena. Poslední aktualizace: 15.11.2023</p>
+        <p>Kontakt: info@fclbar.cz  +420 123 456 789</p>
+    </footer>
+</body>
+
+</html>
